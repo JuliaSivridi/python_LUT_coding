@@ -1,0 +1,18 @@
+sana = input("Anna pitkä Sana: ")
+print("Antamasi sanan viisi ensimmäistä kirjainta ovat", sana[:5:])
+print("Viisi viimeistä kirjainta ovat", sana[-5::])
+print("Kirjaimet 2,3,4 ja 5 ovat", sana[1:5])
+print("")
+print("Sanan joka toinen kirjain alkaen toisesta kirjaimesta:", sana[1::2])
+print("")
+print("Annoit sanan '", sana, "', joka on takaperin '", sana[::-1], "'.", sep="")
+print("")
+
+aloituspaikka = int(input("Anna aloituspaikka: "))
+lopetuspaikka = int(input("Anna lopetuspaikka: "))
+siirtymä = int(input("Anna siirtymä: "))
+print("Antamillasi asetuksilla sana", sana, "tulostuu näin:", sana[aloituspaikka:lopetuspaikka:siirtymä])
+print("")
+
+print("Sana oli", len(sana), "merkkiä pitkä.")
+print("Kiitos ohjelman käytöstä.")
