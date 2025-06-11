@@ -1,4 +1,4 @@
-lnimi = input("Anna luettavan tiedoston nimi: ")
+lnimi = input("Anna luettavan tiedoston nimi: ") # L06T3D1.txt
 knimi = "L06T3T1.txt"
 
 ltiedosto = open(lnimi, "r", encoding="utf-8")

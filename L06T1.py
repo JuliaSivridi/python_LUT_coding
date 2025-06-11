@@ -18,9 +18,10 @@ def TiedostoLue(tnimi):
     tiedosto.close()
 
 def paaohjelma():
-    tiedoston_nimi = input("Anna tallennettavan tiedoston nimi: ")
+    tiedoston_nimi = input("Anna tallennettavan tiedoston nimi: ") #  L06T1T1.txt
     TiedostoKirjoita(tiedoston_nimi)
     TiedostoLue(tiedoston_nimi)
+
     print("Kiitos ohjelman käytöstä.")
 
 paaohjelma()
