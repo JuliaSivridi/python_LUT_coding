@@ -28,6 +28,7 @@ def ympyranLaskenta():
     sade = int(input("Anna ympyrän säde kokonaislukuna: "))
     ala = math.pi * math.pow(sade, 2)
     print(f"Säteellä {sade} ympyrän pinta-ala on {ala:.2f}.\n")
+    return None
 
 def arvaLuku():
     random.seed(1)
@@ -44,6 +45,7 @@ def arvaLuku():
             print("Haettu luku on pienempi.")
         else:
             print(f"Oikein! Käytit arvaamiseen {kierro} kierrosta.\n")
+    return None
 
 def paaohjelma():
     print("Tämä ohjelma käyttää kirjastoja tehtävien ratkaisemiseen.")
@@ -58,6 +60,7 @@ def paaohjelma():
             print("Kiitos ohjelman käytöstä.")
         else:
             print("Tuntematon valinta, yritä uudestaan.")
+    return None
 
 paaohjelma()
 # eof

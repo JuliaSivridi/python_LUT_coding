@@ -33,6 +33,7 @@ def aikaKomp():
     print("Annoit tunnin", dttoform.hour)
     print("Annoit minuutin", dttoform.minute)
     print()
+    return None
 
 def ikaPaivat():
     bdate = input("Anna syntymäpäiväsi muodossa pp.kk.vvvv: ")
@@ -41,6 +42,7 @@ def ikaPaivat():
     ika = exdate - bdate
     print(f"1.1.2000 sinä olit {ika.days} päivää vanha.")
     print()
+    return None
 
 def tulostaVP():
     date = datetime.datetime.strptime("1.6.2025", "%d.%m.%Y")
@@ -48,6 +50,7 @@ def tulostaVP():
         date = date + datetime.timedelta(days=1)
         print(date.strftime("%A"))
     print()
+    return None
 
 def tulostaKK():
     date = datetime.datetime.strptime("1.12.2024", "%d.%m.%Y")
@@ -55,6 +58,7 @@ def tulostaKK():
         date = date + datetime.timedelta(days=31)
         print(date.strftime("%b"))
     print()
+    return None
 
 def paaohjelma():
     print("Tämä ohjelma käyttää datetime-kirjastoa tehtävien ratkaisemiseen.")
@@ -73,6 +77,7 @@ def paaohjelma():
             print("Kiitos ohjelman käytöstä.")
         else:
             print("Valintaa ei tunnistettu, yritä uudestaan.\n")
+    return None
 
 paaohjelma()
 # eof

@@ -43,6 +43,7 @@ def paaohjelma():
         print("Henkilötunnusta ei hyväksytä.")
 
     print("Kiitos ohjelman käytöstä.")
+    return None
 
 paaohjelma()
 # eof

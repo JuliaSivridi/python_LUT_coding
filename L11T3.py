@@ -23,6 +23,7 @@ def paaohjelma():
     tulosta(sana, maara)
 
     print("Kiitos ohjelman käytöstä.")
+    return None
 
 paaohjelma()
 # eof

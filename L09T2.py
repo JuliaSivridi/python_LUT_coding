@@ -34,6 +34,7 @@ def testIE():
     except IndexError:
         print(f"Tuli IndexError, indeksi {indexi}.")
     lista.clear()
+    return None
 
 def testZDE():
     try:
@@ -41,6 +42,7 @@ def testZDE():
         print(f"4/{jakaja} on {4/jakaja:.2f}.")
     except ZeroDivisionError:
         print(f"Tuli ZeroDivisionError, jakaja {jakaja}.")
+    return None
 
 def testTE():
     try:
@@ -48,6 +50,7 @@ def testTE():
         numero = numero * numero
     except TypeError:
         print(f"Tuli TypeError, {numero}*{numero} merkkijonoilla ei onnistunut.")
+    return None
 
 def paaohjelma():
     toiminto = 1
@@ -65,6 +68,7 @@ def paaohjelma():
             print("Kiitos ohjelman käytöstä.")
         else:
             print("Valintaa ei tunnistettu, yritä uudestaan.")
+    return None
 
 paaohjelma()
 # eof

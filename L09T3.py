@@ -34,6 +34,7 @@ def analysoiTiedot(lista, merkit):
         if l not in merkit:
             merkit.append(l)
     print(f"Tiedostossa oli {len(merkit)} eri automerkkiä.")
+    return None
 
 def talennaTiedosto(tnimi, merkit):
     try:
@@ -64,6 +65,7 @@ def paaohjelma():
     lista.clear()
     merkit.clear()
     print("Kiitos ohjelman käytöstä.")
+    return None
 
 paaohjelma()
 # eof

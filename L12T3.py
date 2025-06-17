@@ -76,6 +76,7 @@ def paaohjelma():
     lista.clear()
     tulot.clear()
     print("Kiitos ohjelman käytöstä.")
+    return None
 
 paaohjelma()
 # eof

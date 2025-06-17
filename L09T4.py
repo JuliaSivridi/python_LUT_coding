@@ -65,6 +65,7 @@ def paaohjelma():
             print("Tuntematon valinta, yritä uudestaan.")
 
     print("Kiitos ohjelman käytöstä.")
+    return None
 
 paaohjelma()
 # eof

@@ -39,6 +39,7 @@ def osamaara(a, b):
         return "Nollalla ei voi jakaa."
     else:
         return f"Osamäärä {a} / {b} = {round(a / b, 2)}"
+    return None
 
 def talennaTiedosto(tnimi, tulot):
     ktiedosto = open(tnimi, "w", encoding="utf-8")
@@ -87,6 +88,7 @@ def paaohjelma():
             print("Tuntematon valinta, yritä uudestaan.")
 
     print("Kiitos ohjelman käytöstä.")
+    return None
 
 paaohjelma()
 # eof

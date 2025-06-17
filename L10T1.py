@@ -72,6 +72,7 @@ def paaohjelma():
     lista.clear()
     autot.clear()
     print("Kiitos ohjelman käytöstä.")
+    return None
 
 paaohjelma()
 # eof

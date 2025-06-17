@@ -23,6 +23,7 @@ def paaohjelma():
         print(f"Neliöjuuri on {i+1}")
 
     print("Kiitos ohjelman käytöstä.")
+    return None
 
 paaohjelma()
 # eof

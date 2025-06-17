@@ -48,6 +48,7 @@ def paaohjelma():
     print(f"Lukujen {dec1} ja {dec2} erotus on {dec1-dec2}")
 
     print("Kiitos ohjelman käytöstä.")
+    return None
 
 paaohjelma()
 # eof

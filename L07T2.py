@@ -24,11 +24,13 @@ def kysy_auto():
 
 def tulosta_auto(auto):
     print("Varastossa on nyt "+auto.merkki+"-merkkisiä autoja "+auto.lkm+" kpl.")
+    return None
 
 def paaohjelma():
     vauto = kysy_auto()
     tulosta_auto(vauto)
     print("Kiitos ohjelman käytöstä.")
+    return None
 
 paaohjelma()
 # eof

@@ -21,6 +21,7 @@ def paaohjelma():
     print(f"Kanipariskuntia on {kuut} kuukauden kuluttua {kanit}")
 
     print("Kiitos ohjelman käytöstä.")
+    return None
 
 paaohjelma()
 # eof

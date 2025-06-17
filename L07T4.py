@@ -34,6 +34,7 @@ def tulosta_auto(lista):
     print("Listalta löytyy seuraavat automerkit ja hinnat:")
     for auto in lista:
           print(auto.merkki, auto.hinta)
+    return None
 
 def paaohjelma():
     print("Tämä ohjelma lisää autojen tietoja listaan ja tulostaa ne.")

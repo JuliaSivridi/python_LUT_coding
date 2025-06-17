@@ -25,6 +25,7 @@ def paaohjelma():
     ltiedosto.close()
 
     print("Kiitos ohjelman käytöstä.")
+    return None
 
 paaohjelma()
 # eof

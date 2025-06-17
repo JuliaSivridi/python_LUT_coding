@@ -35,6 +35,7 @@ def paaohjelma():
     print()
 
     print("Kiitos ohjelman käytöstä.")
+    return None
 
 paaohjelma()
 # eof

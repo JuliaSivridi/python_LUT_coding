@@ -63,6 +63,7 @@ def paaohjelma():
             print("Kiitos ohjelman käytöstä.")
         else:
             print("Valintaa ei tunnistettu, yritä uudestaan.\n")
+    return None
 
 paaohjelma()
 # eof
